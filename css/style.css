@@ -7,5 +7,16 @@
    border-bottom: 3px solid #ccc ;
 }
 /* TODO: style .card (padding, border, gap) and .card-grid (display, gap, 3 columns) */
+.card{
+   padding: 12px;
+   border: 1px solid #ccc;
+   margin: 20px;
+}
+
+.card-grid{
+   display: grid;
+   gap: 16px;
+   grid-template-columns: 1fr 1fr 1fr;
+}
 /* TODO: style form inputs (padding) and a :focus state */
 /* TODO: add a @media (max-width: 700px) query collapsing .card-grid to one column */
